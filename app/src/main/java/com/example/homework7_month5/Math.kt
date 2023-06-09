@@ -8,6 +8,7 @@ class Math {
 
     fun add(a: String, b: String): String {
         var result = " "
+
         if (a.isEmpty() || b.isEmpty()) {
             result = "Поля не должны быть пусты"
         } else if (a.contains(".") || b.contains(".")) {
@@ -22,6 +23,7 @@ class Math {
 
     fun divide(a: String, b: String): String {
         var result = " "
+
         if (b == "0") {
             result = "На ноль делить нельзя"
         } else if (a.contains(".") || b.contains(".")) {
